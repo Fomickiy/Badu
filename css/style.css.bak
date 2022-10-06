@@ -1,0 +1,1152 @@
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+*,
+::before,
+::after {
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+h3{
+  font-size: 18px;
+  white-space: nowrap;
+}
+h4 {
+  font-size: 18px;
+  white-space: nowrap;
+  line-height: 5rem;
+}
+h5 {
+  font-size: 18px;
+  
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body{font-family: 'Myriad Pro';}
+p{
+  margin-top: 1rem;
+
+}
+:root{
+  --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --background-color:#da9590;
+    --main:#51547f;
+    --featured-p-color:#38497a;
+    --property:#9aa2bb;
+    --text-property: #38497a;
+    --section-microbiome-color:#51547f;
+    --section-vitamins-text-color:#2f3668;
+    --buyer-text-color:#e5f1ee;
+    --buyer-text-color-p:#626262;
+    --end-block-color:#ca8589;
+    --bootles-color:#ccd0dd;
+    --days-color:#000000;
+    --days-text-color:#dee0de;
+    --money-text-color:#3c4779;
+    --button-color:#666291;
+    --money-color:#0d0d0d;
+    --botton-hover-color:#d99590;
+}
+@font-face {
+  font-family: 'Myriad italic';
+  src: local('Myriad Pro Semibold Italic'), local('MyriadPro-SemiboldIt'),
+      url('../fonts/MyriadPro-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/MyriadPro-SemiboldIt.woff') format('woff'),
+      url('../fonts/MyriadPro-SemiboldIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MyriadPro-Bold.eot');
+  src: local('Myriad Pro Bold'), local('MyriadPro-Bold'),
+    url('../fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Bold.woff') format('woff'),
+    url('../fonts/MyriadPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Myriad 300';
+  src: url('../fonts/MyriadPro-LightSemiExt.eot');
+  src: local('Myriad Pro Light SemiExtended'), local('MyriadPro-LightSemiExt'),
+    url('../fonts/MyriadPro-LightSemiExt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-LightSemiExt.woff') format('woff'),
+    url('../fonts/MyriadPro-LightSemiExt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+.background{
+  background-color:var(--background-color);
+}
+.conteiner{
+  max-width: 1024px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.header__items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+  .dietary__supplements__items__nav{
+    display: flex;
+  }
+/*logo*/
+.logo__dietary__supplements{
+margin-left: 1rem;
+}
+.logo__dietary{
+width: 150px;
+  padding: 20px
+}
+
+/*burrger*/
+.burrger-menu{
+display: none;
+}
+
+.menu__button{
+cursor: pointer;
+height: 55px;
+width: 55px;
+background: url('/img/menu-outline.svg') center/25px no-repeat;
+}
+.menu__button.check{
+  background: red;
+  background: url('/img/close-outline.svg') center/25px no-repeat;
+}
+/*Nav*/
+.dietary__supplements__items__nav{
+  font-size: 20px;
+}
+.nav__link{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 30px;
+  line-height: 55px;
+  color:var(--tw-ring-offset-color);
+  text-decoration: none;
+  transition: color .7s linear;
+  
+}
+.nav__link:first-child{
+  margin-left: 0;
+}
+.nav__link:hover{
+  color:#e5e7eb;
+}
+
+.button__nav{
+color: red;
+}
+.button__order {}
+.button__order a {background: #38497a;
+  color: #fff;
+  line-height: 55px;
+  text-decoration: none; position:relative; display:block; padding:0 20px 0 60px; border-radius:30px;}
+.button__order a:before {content:''; display: inline-block; width: 36px; height:36px; position:absolute; left:10px; top:9px; border-radius: 36px; background:rgba(255,255,255,.2) url('../img/bag_icon.png') center/20px no-repeat;}
+.button__order a:hover{
+  background-color: var(--botton-hover-color);
+}
+/*main*/
+/*bottles*/
+.crossout{
+  position: relative;
+  display: inline-block;
+}
+.crossout:before{
+        content: '';
+        display: inline-block;
+        width: 120%;
+        height: 1px;
+        border-bottom: 3px solid var(--button-color);
+        position: absolute;
+        left: -6px;
+        top: 6px;
+        -moz-transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(12deg);
+}
+.you__money{
+color: var(--money-text-color);
+font-family: 'Myriad 300';
+font-weight: 700;
+}
+  .money{
+    font-size: 35px;
+    color: var(--featured-p-color);
+    color: var(--button-color);
+  }
+    .info{
+      font-size: 17px;
+      color: var(--button-color);
+      font-family: 'Myriad 300';
+      text-align: left;
+      margin-left: 10px;
+      font-weight: bold;
+    }
+.days{
+  background-color: var(--days-color);
+  color: var(--days-text-color);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  line-height: 46px;
+  font-family: 'Myriad 300';
+  text-transform: uppercase;
+}
+.all_tariffs {
+  display: flex;
+  justify-content: center;
+
+}
+.all_tariffs .tariffs__item:nth-child(2) {margin-top:-20px;}
+.all_tariffs .tariffs__item:nth-child(2) .tariffs__text-title-one {font-size:28px;}
+.all_tariffs .tariffs__item:nth-child(2) .tariffs__text-title-two {padding-top:10px; margin-top: 0px;}
+.all_tariffs .tariffs__item:nth-child(2) .price__images {margin-top: 20px;}
+.all_tariffs .tariffs__item:nth-child(3) .price__images:before,
+.all_tariffs .tariffs__item:nth-child(2) .price__images:before {content: ''; display: inline-block; height:90px; width:90px; background:url(/img/best-value-stick.png)  center/90px no-repeat; z-index:11;left: 20px; position: absolute;bottom: 0;}
+.all_tariffs .tariffs__item:nth-child(3) .price__images:before {background:url(/img/most-popular-stick.png) center/90px;}
+.tariffs__inner-item-box .button__order a {
+text-transform: uppercase;
+padding-left: 8px;
+padding-right: 0;
+margin-left: 20px;
+margin-right: 20px;
+letter-spacing: 1.2px;
+}
+.tariffs__description {
+    background-color: #656392;
+    padding-top: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tariffs__text-title {
+  color: white;
+}
+
+.tariffs__description-bottom {}
+
+.bottle-images {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.tariffs__inner-item-box {
+  position: relative;
+  border-radius: 10px;
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  background: white;
+}
+
+.tariffs__item-box {
+  text-align: center;
+  margin: 0 8px;
+}
+
+.tariffs__item {
+  max-width: 100%;
+  flex: 0 0 auto;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.tariffs__description-bottom {
+
+}
+
+.price__images {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 185px;
+  overflow: hidden;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.benefit {
+  margin-bottom: 10px;
+}
+
+.total__price {
+  margin-bottom: 20px;
+}
+
+.total__money {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: 'Myriad 300';
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--money-color);
+}
+.button__order {}
+
+
+.button__order a {
+  background: var(--button-color);
+  color: #fff;
+  line-height: 55px;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  padding: 0 20px 0 60px;
+  border-radius: 30px;
+}
+
+.button__order a:before {
+  content: '';
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 10px;
+  top: 9px;
+  border-radius: 36px;
+  background: rgba(255, 255, 255, .2) url('../img/bag_icon.png') center/20px no-repeat;
+}
+
+
+
+
+
+.tariffs__text-title-one {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--buyer-text-color);
+  font-family: 'Myriad Pro';
+}
+    .tariffs__text-title-two{
+      font-family: 'Myriad 300';
+      color: var(--buyer-text-color);
+      padding-bottom: 8px;
+    }
+
+.bag-images {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 29px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 33px;
+  height: 31px;
+  background-color: grey;
+  border: 7px solid grey;
+  border-radius: 147px;
+}
+/*bottles*/
+
+.images__model{
+width: 288px;
+position: relative;
+}
+.main__dietary__supplements{
+  background-color: var(--main);
+  position: relative;
+}
+.main__dietary__supplements:before {content:''; display:inline-block; width:32px; height:32px; position:absolute; bottom:-12px; left:50%; margin-left: -16px; background: #51547f; z-index: -1; -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);}
+.main__burner{
+display: flex;
+padding-top: 48px;
+}
+
+.main__text{
+      width: 66.666667%;
+      text-align: left;
+      margin-top: 45px;
+      padding-left: 20rem;
+      }
+.main__title{
+  font-family: 'Myriad Pro';
+  font-size: 70px;
+  color: var(--tw-ring-offset-color);
+  margin-bottom: 25px;
+}
+
+.main__suptitle{
+font-family: 'Myriad italic';
+font-size: 26px;
+color: var(--background-color);
+}
+.text-cross__out {position: relative; display: inline-block; }
+.text-cross__out:before {content:''; display: inline-block; width: 120%; height:1px; border-bottom: 1px solid red; position:absolute; left:-6px; top:6px;-moz-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);}
+
+
+/*Brands*/
+.conteiner.conteiner__brends {
+  margin-left: auto;
+  margin-right: auto;
+}
+.brends{
+background-color: var(--tw-ring-offset-color);
+padding-bottom: 40px;
+}
+
+.featured{
+  margin-top: 35px;
+  font-size:33px ;
+  line-height: 28px;
+  font-weight: 700;
+  color: var(--featured-p-color);
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.icon__brands{
+  text-align: center;
+
+}
+
+.label__images{
+max-width: 100px;
+display: inline-block;
+margin: 5px;
+opacity: 0.6;
+}
+
+/*description__properties*/
+.description__properties{
+      background-color: var(--property);
+      }
+
+
+.description__properties__info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description__properties__info__additionally{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    }
+  
+.text__title{
+font-family: 'Myriad Pro';
+font-size: 41px;
+text-align: center;
+line-height: 1;
+color: var(--tw-ring-offset-color);
+font-weight: 300;
+padding-top: 45px;
+letter-spacing: -.025em;
+}
+
+.description__model {
+  width: 280px;
+  vertical-align: bottom;
+}
+.about__negative_properties{
+font-weight: 500;
+color: var(--text-property);
+font-size: 1.25rem;
+line-height: 1.75rem;
+}
+  .about__properties{
+    color: var(--tw-ring-offset-color);
+    font-size: 1.25rem;
+    font-family: 'Myriad 300';
+    line-height: 1.75rem;
+  }
+
+  /*microbiome*/
+  .bootle{
+    max-width: 500px;
+    }
+.about__microbiome{
+  background-color: var(--section-microbiome-color);
+  display: none;
+}
+.microbiome{
+display: flex;
+padding-top: 100px;
+}
+
+.caption{
+font-family: 'Myriad Pro';
+font-size: 48px;
+color: var(--tw-ring-offset-color);
+}
+
+.items__center{
+  margin-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  line-height: 2.25rem;
+  color: var(--background-color);
+}
+    .sign{
+        float: left;
+        width: 25px;
+        margin-top: 6px;
+        margin-right: 10px;
+        }
+          .sign__two{
+            float: left;
+              width: 25px;
+              margin-top: 30px;
+              margin-right: 10px;
+          }
+  
+.about__microbiome_text{
+  color: var(--tw-ring-offset-color);
+  padding-top: 1rem;
+  margin-bottom: 80px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+
+/*vitamins*/
+.vitamins{
+  background-color: #9aa2bb;
+}
+.vitamins.madam_left { position:relative;}
+
+.specification{
+    display: flex;
+      align-items: center;
+}
+
+.specification__list{
+  padding-bottom: 40px;
+}
+.specification__item{
+color: white;
+position: relative;
+font-size: 13px;
+margin-bottom: 10px;
+padding-left: 30px;
+margin-top: 20px;
+font-family: 'Myriad 300';
+}
+.specification__item:before{
+    content: '';
+    display: inline-block;
+    left: 0;
+    top: -4px;
+    background: url(/img/Layer96.png) center/17px no-repeat;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    }
+.specification__model{
+  display: block;
+  vertical-align: bottom;
+ position:absolute; left:0; bottom:0;
+  width: 50%;
+}
+.specification__text-one{
+color: var(--tw-ring-offset-color);
+padding-top: 1rem;
+font-size: 14px;
+line-height: 1.75rem;
+font-family: 'Myriad 300';
+}
+  .specification__text-two{
+  color: var(--section-vitamins-text-color);
+  padding-top: 1rem;
+  font-size: 16px;
+  line-height: 1.75rem;
+  text-decoration: underline;
+  padding-bottom: 10px;
+  }
+    .items__center_specification{
+     margin-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        line-height: 2.25rem;
+        color: var(--tw-ring-offset-color);
+        }
+.specification__text{
+  width: 50%; flex-grow: 1; margin-left:50%;
+}
+.vitamins.madam_left .conteiner {position: relative;}
+.vitamins.madam_left .conteiner:before {content:''; display:inline-block; width:50%; height:100%; background:url(/img/model__specification.png) bottom left no-repeat; background-size: contain; position:absolute; left:0; top:0; bottom:0; }
+
+/*reviews*/
+.reviews{
+  background-color: #2f3668;
+}
+  .reviews__lebels{
+    width: 100px;
+      margin-left: 50px;
+      margin-top: 89px;
+    }
+.review__photo{
+  width: 100px;
+}
+
+.conteiner.labels{
+      filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  display: flex;
+  max-width: 56rem;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews__gallery{
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  max-width: 872px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 8px;
+     
+     
+}
+.stars{
+  display: inline-block;
+}
+.rate__stars {}
+ .star_icon {display:inline-block; width:25px; height:25px; background: url('../img/star.svg') center/20px no-repeat;}
+
+ .recalls{
+      display: flex;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      background-color: var(--buyer-text-color);
+      margin-bottom: 10px;
+      border-radius: 7px;
+      margin-top: 30px;
+      min-height: 200px;
+ }
+
+ .recals__buyer{
+display: flex;
+ }
+ .persone__foto{
+max-width: 100px;
+border-radius: 9999px;
+ }
+ .buyer__name{
+  font-size: 1rem;
+  font-family: 'Myriad 300';
+  line-height: 1.75rem;
+  color:var(--section-vitamins-text-color);
+  font-weight: 700;
+  margin-bottom: 10px;
+ }  
+  .buyer__success{
+  font-family: 'Myriad italic';
+  font-size: 20px;
+  color: var(--background-color);
+  margin-bottom: 10px;
+}
+    .buyer__comment{
+          color: var(--buyer-text-color-p);
+          font-size: 1rem;
+          font-family: 'Myriad 300';
+          line-height: 1.75rem;
+          font-weight: bolder;
+          }
+.account {
+  margin-left: 20px;
+  }
+.wrapper{
+  max-width: 56rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.label__element{
+margin-top: 100px;
+}
+.top__elements__label{
+  display: flex;
+  justify-content: center;
+}
+    .top__elements__images{
+      width: 100px;
+      padding: 10px;
+    }
+.bottom__elements__label{
+display: flex;
+justify-content: center;
+}
+  .bottom__elements__images{
+    width: 100px;
+    padding: 10px;
+  }
+
+.modal{
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.shipping{
+  background-color: var(--end-block-color);
+}
+
+.border__strip {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  align-items: center;
+}
+.strip__car{
+  width: 100px;
+}
+.border__strip__text{
+    font-size: 20px;
+      color: var(--tw-ring-offset-color);
+      text-transform: uppercase;
+      padding-left: 60px;
+    }
+
+
+    /*FAQ*/
+  .faq{
+   background-color: var(--section-vitamins-text-color);
+  }
+  
+.bootles__main{
+background-color:var(--bootles-color);
+}
+.bootles__title{
+padding-top: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 50px;
+}
+.bootle__text{
+font-size: 1.875rem;
+line-height: 2.25rem;
+color: var(--section-vitamins-text-color);
+}
+.bootle__text__bottom{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: 'Myriad 300';
+  font-weight: 700;
+  color: var(--section-vitamins-text-color);
+  }
+  .faq__question{  
+    margin-top: 36px;
+  }
+.faq__question__text {}
+.faq__question__text.visible {}
+.faq__content {color:#d99590; border:1px solid rgba(255,255,255,.3); position: relative; padding:0 50px 0 25px; border-radius:5px; cursor: pointer;}
+.faq__content:before {content:''; display: inline-block; width:38px; height:38px; background:url('../img/plus.svg') center/22px no-repeat; position:absolute; top:0; right:0;}
+.faq__content h5 {display:BLOCK; white-space:nowrap; text-overflow:ellipsis; overflow: hidden; line-height:38px; font-size:22px;}
+.faq__accordiont {visibility: hidden; font-size: 18px; line-height: 1.5; max-height: 0px; color:#fff;}
+.faq__question__text.visible .faq__accordiont {max-height: 1000px; overflow: auto; visibility: inherit; padding:5px 15px 0 15px;}
+.faq__question__text.visible .faq__content:before {background: url('../img/minus.svg') center/22px no-repeat;}
+.faq__accordiont p {margin-bottom: 10px;}
+.section{
+  display: block;
+}
+@media screen and (max-width:1044px) {
+      .conteiner {
+          padding-left: 12px;
+          padding-right: 12px;
+        }
+       
+}
+@media screen and (max-width:1024px) {
+  .label__images {
+      width: 70px;
+    }
+
+    .modal {
+      max-width: 100%;
+    }
+         .main__text {
+           margin-top: 120px;
+           padding-left: 200px;
+         }
+}
+ 
+@media screen and (max-width:960px) {
+  .text__title {
+      font-size: 32px;
+  }
+  .description__properties__info__additionally{
+    width: 100%;
+    text-align: center;
+  }
+  .description__properties_model{
+    display: none;
+  }
+  .top__elements__label {
+    display: block;
+    text-align: center;
+  }
+  .top__elements__label img{
+      display: inline-block;
+    }
+  .bottom__elements__label {
+      display: block;
+      text-align: center;
+    }
+  .modal {
+      max-width: 100%;
+    }
+    .reviews .conteiner.labels {display:block; text-align: center; padding-top: 50px; margin-bottom: 20px;}
+        .reviews__lebels {display: inline-block; margin:15px;}
+  }
+@media screen and (max-width:920px) {
+  .tariffs__item {width:33.3%;}
+}
+
+@media screen and (max-width:900px){
+.icon__brands {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+
+@media screen and (max-width:860px) {
+  .images__model {
+      width: 100%;
+      text-align: center;
+    }
+        .images__model img{
+          max-width: 100%;
+        }
+  .main__text {
+      margin-top: 20px;
+      padding-left: 0;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 80px;
+    }
+    .main__title{
+      font-size: 50px;
+    }
+  .main__burner {
+      flex-flow: column;
+    }
+  .dietary__supplements__items__nav{
+    display: none;
+  }
+    .burrger-menu{
+      display: flex;
+    }
+        .dietary__supplements__items__nav.visible:after {content:''; display: block; clear: both;}
+    .dietary__supplements__items__nav.visible {
+      display: block;
+      top:82px;
+      left: 0;
+      position: absolute;
+      right: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      background-color:var(--background-color) ;
+      z-index: 11;
+}
+.header_dietary__supplements .button__nav {display: inline-block; float: right;}
+      .conteiner{
+        position: relative;
+      }
+            .specification__text{
+              width: 100%;
+              margin-left: 0;
+            }
+            .vitamins.madam_left{
+              padding-top: 320px;
+            }
+            .vitamins.madam_left .conteiner {position: static;}
+           .vitamins.madam_left .conteiner:before{
+            width: 360px;
+            bottom: auto;
+            height: 300px;
+            margin-left: -180px;
+            left: 50%;
+            background-size: cover;
+            background-position-y: 0px;
+            top:40px;
+                }
+                .review__photo {
+                   width: 100%;
+}
+           } 
+@media screen and (max-width:780px) {
+
+  .all_tariffs {flex-flow:column;}
+  .tariffs__item {width:100%;}
+  .tariffs__item-box {margin-bottom: 20px;}
+  .top__elements__images{
+    width:78px ;
+  }
+  .bottom__elements__images{
+      width: 78px;
+    }
+        .bootle__text{
+          text-align: center;
+        }
+        .reviews__lebels {
+          width: 78px;
+        }
+}
+@media screen and (max-width:720px) {
+  .icon__brands {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width:680px) {
+  .nav__link{
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+    .header_dietary__supplements .button__nav{
+      display: inline-block;
+      float: none;
+ 
+    }
+    .dietary__supplements__items__nav.visible{
+       text-align: center;
+        }
+          .logo__dietary{
+          padding: 20px 0 0 0;
+        }
+}
+
+@media screen and (max-width:400px) {
+  .border__strip__text {
+      font-size: 18px;
+      padding-left: 21px;
+    }
+  
+}
+
+@media screen and (max-width:360px) {
+  .main__title{
+    font-size: 35px;
+  }
+    .main__suptitle{
+      font-size: 22px;
+    }
+        .vitamins.madam_left .conteiner:before {
+          width: 100%;
+          margin-left: 0;
+          left: 0;
+        }
+
+        .bootle__text{
+          text-align: center;
+        }
+}
